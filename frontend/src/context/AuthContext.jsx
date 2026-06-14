@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_BASE_URL = 'https://delivery-application-jb5l.onrender.com/';
+  const API_BASE_URL = 'https://delivery-application-jb5l.onrender.com/api';
 
   // Check if user session exists in localStorage
   useEffect(() => {
