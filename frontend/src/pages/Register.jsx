@@ -143,14 +143,14 @@ const Register = ({ setCurrentPage }) => {
             <option value="user">Customer (Order Food)</option>
             <option value="restaurant">Restaurant (Manage Menu & Orders)</option>
             <option value="delivery">Delivery Partner (Deliver Orders)</option>
-            <option value="admin">Admin (Manage Platform)</option>
+
           </select>
         </div>
 
         {role === 'restaurant' && (
           <fieldset style={{ border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)', padding: '1rem', marginBottom: '1.25rem' }}>
             <legend style={{ padding: '0 0.5rem', fontWeight: 600, fontSize: '0.875rem', color: 'var(--color-primary)' }}>Restaurant Details</legend>
-            
+
             <div className="form-group">
               <label className="form-label" htmlFor="restaurantName">Restaurant Name</label>
               <input
